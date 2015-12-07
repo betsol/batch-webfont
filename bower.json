@@ -1,0 +1,25 @@
+{
+  "name": "batch-webfont",
+  "version": "0.0.1",
+  "description": "Developer-friendly repository for Batch font by Adam Whitcroft",
+  "authors": [
+    "Slava Fomin II"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "fonts",
+    "font",
+    "sass",
+    "scss",
+    "batch",
+    "icons",
+    "icon",
+    "webfonts",
+    "webfont"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}

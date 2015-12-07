@@ -1,0 +1,20 @@
+$batch-font-path: '/bower_components/batch-webfont/font' !default;
+
+@font-face{
+  font-family: Batch;
+  src:url('#{$batch-font-path}/batch-icons-webfont.eot');
+  src:url('#{$batch-font-path}/batch-icons-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$batch-font-path}/batch-icons-webfont.woff') format('woff'),
+  url('#{$batch-font-path}/batch-icons-webfont.ttf') format('truetype'),
+  url('#{$batch-font-path}/batch-icons-webfont.svg#batchregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.batch {
+  display: inline-block;
+  font-family: Batch;
+  font-size: inherit;
+  font-weight: normal;
+  line-height: inherit;
+}
