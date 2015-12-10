@@ -1,12 +1,16 @@
 $batch-font-path: '/bower_components/batch-webfont/font' !default;
 
+@import 'icons';
+
 @font-face{
   font-family: Batch;
-  src:url('#{$batch-font-path}/batch-icons-webfont.eot');
-  src:url('#{$batch-font-path}/batch-icons-webfont.eot?#iefix') format('embedded-opentype'),
-  url('#{$batch-font-path}/batch-icons-webfont.woff') format('woff'),
-  url('#{$batch-font-path}/batch-icons-webfont.ttf') format('truetype'),
-  url('#{$batch-font-path}/batch-icons-webfont.svg#batchregular') format('svg');
+  src: url('#{$batch-font-path}/batch-icons-webfont.eot');
+  src:
+    url('#{$batch-font-path}/batch-icons-webfont.eot?#iefix')       format('embedded-opentype'),
+    url('#{$batch-font-path}/batch-icons-webfont.woff')             format('woff'),
+    url('#{$batch-font-path}/batch-icons-webfont.ttf')              format('truetype'),
+    url('#{$batch-font-path}/batch-icons-webfont.svg#batchregular') format('svg')
+  ;
   font-weight: normal;
   font-style: normal;
 }
@@ -17,4 +21,10 @@ $batch-font-path: '/bower_components/batch-webfont/font' !default;
   font-size: inherit;
   font-weight: normal;
   line-height: inherit;
+}
+
+@each $name, $reference in $icons {
+  .batch-#{$name}:before {
+    content: '&#x' + $reference + ';';
+  }
 }

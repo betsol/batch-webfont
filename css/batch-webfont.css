@@ -5,11 +5,66 @@
   font-weight: normal;
   font-style: normal;
 }
-/* line 14, ../scss/batch-webfont.scss */
+/* line 18, ../scss/batch-webfont.scss */
 .batch {
   display: inline-block;
   font-family: Batch;
   font-size: inherit;
   font-weight: normal;
   line-height: inherit;
+}
+
+/* line 27, ../scss/batch-webfont.scss */
+.batch-dialog-blank-left:before {
+  content: "&#xF000;";
+}
+
+/* line 27, ../scss/batch-webfont.scss */
+.batch-dialog-blank-mid:before {
+  content: "&#xF001;";
+}
+
+/* line 27, ../scss/batch-webfont.scss */
+.batch-dialog-blank-right:before {
+  content: "&#xF002;";
+}
+
+/* line 27, ../scss/batch-webfont.scss */
+.batch-dialog-left:before {
+  content: "&#xF003;";
+}
+
+/* line 27, ../scss/batch-webfont.scss */
+.batch-dialog-mid:before {
+  content: "&#xF004;";
+}
+
+/* line 27, ../scss/batch-webfont.scss */
+.batch-dialog-right:before {
+  content: "&#xF005;";
+}
+
+/* line 27, ../scss/batch-webfont.scss */
+.batch-dialog-black-left:before {
+  content: "&#xF006;";
+}
+
+/* line 27, ../scss/batch-webfont.scss */
+.batch-dialog-black-mid:before {
+  content: "&#xF007;";
+}
+
+/* line 27, ../scss/batch-webfont.scss */
+.batch-dialog-black-right:before {
+  content: "&#xF008;";
+}
+
+/* line 27, ../scss/batch-webfont.scss */
+.batch-dialogs-left:before {
+  content: "&#xF009;";
+}
+
+/* line 27, ../scss/batch-webfont.scss */
+.batch-dialogs-right:before {
+  content: "&#xF00A;";
 }
