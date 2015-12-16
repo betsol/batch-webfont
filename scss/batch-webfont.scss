@@ -2,6 +2,13 @@ $batch-font-path: '/bower_components/batch-webfont/font' !default;
 
 @import 'icons';
 
+// @source - [@Stephn-R](https://github.com/sass/sass/issues/1395#issuecomment-57483844)
+// @description converts 1 or more characters into a unicode
+// unicode("e655"); // "\e655"
+@function unicode($str){
+  @return unquote("\"")+unquote(str-insert($str, "\\", 1))+unquote("\"");
+}
+
 @font-face{
   font-family: Batch;
   src: url('#{$batch-font-path}/batch-icons-webfont.eot');
@@ -25,6 +32,6 @@ $batch-font-path: '/bower_components/batch-webfont/font' !default;
 
 @each $name, $reference in $icons {
   .batch-#{$name}:before {
-    content: '&#x' + $reference + ';';
+    content: unicode($reference);
   }
 }

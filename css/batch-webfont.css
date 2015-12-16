@@ -5,7 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/* line 18, ../scss/batch-webfont.scss */
+/* line 25, ../scss/batch-webfont.scss */
 .batch {
   display: inline-block;
   font-family: Batch;
@@ -14,57 +14,57 @@
   line-height: inherit;
 }
 
-/* line 27, ../scss/batch-webfont.scss */
+/* line 34, ../scss/batch-webfont.scss */
 .batch-dialog-blank-left:before {
-  content: "&#xF000;";
+  content: "\f000";
 }
 
-/* line 27, ../scss/batch-webfont.scss */
+/* line 34, ../scss/batch-webfont.scss */
 .batch-dialog-blank-mid:before {
-  content: "&#xF001;";
+  content: "\f001";
 }
 
-/* line 27, ../scss/batch-webfont.scss */
+/* line 34, ../scss/batch-webfont.scss */
 .batch-dialog-blank-right:before {
-  content: "&#xF002;";
+  content: "\f002";
 }
 
-/* line 27, ../scss/batch-webfont.scss */
+/* line 34, ../scss/batch-webfont.scss */
 .batch-dialog-left:before {
-  content: "&#xF003;";
+  content: "\f003";
 }
 
-/* line 27, ../scss/batch-webfont.scss */
+/* line 34, ../scss/batch-webfont.scss */
 .batch-dialog-mid:before {
-  content: "&#xF004;";
+  content: "\f004";
 }
 
-/* line 27, ../scss/batch-webfont.scss */
+/* line 34, ../scss/batch-webfont.scss */
 .batch-dialog-right:before {
-  content: "&#xF005;";
+  content: "\f005";
 }
 
-/* line 27, ../scss/batch-webfont.scss */
+/* line 34, ../scss/batch-webfont.scss */
 .batch-dialog-black-left:before {
-  content: "&#xF006;";
+  content: "\f006";
 }
 
-/* line 27, ../scss/batch-webfont.scss */
+/* line 34, ../scss/batch-webfont.scss */
 .batch-dialog-black-mid:before {
-  content: "&#xF007;";
+  content: "\f007";
 }
 
-/* line 27, ../scss/batch-webfont.scss */
+/* line 34, ../scss/batch-webfont.scss */
 .batch-dialog-black-right:before {
-  content: "&#xF008;";
+  content: "\f008";
 }
 
-/* line 27, ../scss/batch-webfont.scss */
+/* line 34, ../scss/batch-webfont.scss */
 .batch-dialogs-left:before {
-  content: "&#xF009;";
+  content: "\f009";
 }
 
-/* line 27, ../scss/batch-webfont.scss */
+/* line 34, ../scss/batch-webfont.scss */
 .batch-dialogs-right:before {
-  content: "&#xF00A;";
+  content: "\f00A";
 }
