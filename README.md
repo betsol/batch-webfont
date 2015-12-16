@@ -7,6 +7,8 @@ Developer-friendly repository for [Batch font][font-url] by Adam Whitcroft.
 
 > A lovingly designed and crafted suite of 300+ icons for web and user interface design.
 
+Please see [the demo and the cheatsheet][gh-page].
+
 
 ## Installation
 
@@ -107,3 +109,4 @@ THE SOFTWARE.
   [gulp]:           http://gulpjs.com/
   [repo-gh]:        https://github.com/betsol/batch-webfont
   [font-url]:       http://adamwhitcroft.com/batch/
+  [gh-page]:        http://betsol.github.io/batch-webfont/
