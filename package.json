@@ -19,8 +19,10 @@
     "del": "^2.2.0",
     "gulp": "^3.9.0",
     "gulp-compass": "^2.1.0",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-minify-css": "^1.2.2",
     "gulp-rename": "^1.2.2",
-    "run-sequence": "^1.1.5"
+    "run-sequence": "^1.1.5",
+    "spa-server": "^0.1.0"
   }
 }
