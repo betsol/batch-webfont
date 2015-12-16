@@ -1,7 +1,7 @@
 @font-face {
   font-family: Batch;
-  src: url("/bower_components/batch-webfont/font/batch-icons-webfont.eot");
-  src: url("/bower_components/batch-webfont/font/batch-icons-webfont.eot?#iefix") format("embedded-opentype"), url("/bower_components/batch-webfont/font/batch-icons-webfont.woff") format("woff"), url("/bower_components/batch-webfont/font/batch-icons-webfont.ttf") format("truetype"), url("/bower_components/batch-webfont/font/batch-icons-webfont.svg#batchregular") format("svg");
+  src: url("../font/batch-icons-webfont.eot");
+  src: url("../font/batch-icons-webfont.eot?#iefix") format("embedded-opentype"), url("../font/batch-icons-webfont.woff") format("woff"), url("../font/batch-icons-webfont.ttf") format("truetype"), url("../font/batch-icons-webfont.svg#batchregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
