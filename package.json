@@ -22,6 +22,7 @@
     "gulp-gh-pages": "^0.5.4",
     "gulp-minify-css": "^1.2.2",
     "gulp-rename": "^1.2.2",
+    "ncp": "^2.0.0",
     "run-sequence": "^1.1.5",
     "spa-server": "^0.1.0"
   }

@@ -10,6 +10,7 @@ var rename = require('gulp-rename');
 var minifyCSS = require('gulp-minify-css');
 var serverFactory = require('spa-server');
 var deploy = require('gulp-gh-pages');
+var ncp = require('ncp').ncp;
 
 //---------------//
 // CONFIGURATION //
