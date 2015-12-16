@@ -145,8 +145,10 @@ gulp.task('site-deploy-after', function (done) {
  * @param {function} callback
  */
 function deployClearTemp (callback) {
-  del([deployTmpPath, './.publish'], function () {
-    console.log('Temporary directories removed!');
-    callback();
-  });
+  del(deployTmpPath, './.publish')
+    .then(function () {
+      console.log('Temporary directories removed!');
+      callback();
+    })
+  ;
 }
